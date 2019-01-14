@@ -315,7 +315,7 @@ public class TimePickerDialog extends DialogFragment implements OnValueSelectedL
         // Set the theme at the end so that the initialize()s above don't counteract the theme.
         mTimePicker.setTheme(getActivity().getApplicationContext(), mThemeDark);
         // Prepare some colors to use.
-        int white = res.getColor(android.R.color.white);
+        int white = res.getColor(R.color.time_display_color);
         int circleBackground = res.getColor(R.color.circle_background);
         int line = res.getColor(R.color.line_background);
         int timeDisplay = res.getColor(R.color.numbers_text_color);

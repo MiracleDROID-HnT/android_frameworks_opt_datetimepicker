@@ -23,6 +23,7 @@
     <color name="done_text_color_normal">#000000</color>
     <color name="done_text_color_disabled">#cccccc</color>
     <color name="numbers_text_color">#8c8c8c</color>
+    <color name="time_display_color">@android:color/white</color>
 
     <color name="transparent_black">#7f000000</color>
     <color name="blue">#33b5e5</color>
